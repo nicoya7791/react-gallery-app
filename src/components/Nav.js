@@ -7,9 +7,9 @@ const Nav = () => {
     return(
         <nav className="main-nav">
             <ul>
-                <li><NavLink to="#">UFO</NavLink></li>
-                <li><NavLink to="#">SPACE</NavLink></li>
-                <li><NavLink to="#">STARS</NavLink></li>
+                <li><NavLink to="#">Birds</NavLink></li>
+                <li><NavLink to="#">Forrest</NavLink></li>
+                <li><NavLink to="#">Mountain</NavLink></li>
             </ul>
         </nav>
 

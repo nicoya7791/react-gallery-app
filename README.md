@@ -1,3 +1,15 @@
+# React Gallery using Flickr api
+1. This app will display 24 photos
+2. will have three default links
+3. user can search their own interest using the search bar.
+
+## How to run this app
+1. You need nodejs and npm install
+2. run npm istall
+2. you need a flickr api key, you can request one here.(https://www.flickr.com/services/apps/create/apply/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

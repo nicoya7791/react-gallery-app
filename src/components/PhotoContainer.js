@@ -6,11 +6,10 @@ import Photo from './Photo';
 // Will recieve an object data property from main app. will map throuh the data. return Photo component.
 const PhotoContainer = (props) => {
     const results = props.data;
+    let photos;
+    results.length > 0 ? photos = results.map(photo => <Photo url={photo.url_z} key={photo.id} />) 
+        : photos = <NotFound /> 
 
-    let photos = results.map(photo => 
-        <Photo url={photo.url_z}/>
-    )
-    
 
     return (
         <div className="photo-container">
