@@ -3,7 +3,7 @@ import NotFound from './NotFound';
 import Photo from './Photo';
 
 
-// Will recieve an object data property from main app. will map throuh the data. return Photo component.
+// Recieve an object data property from app.js. will map throuh the data. return Photo component.
 const PhotoContainer = (props) => {
     const results = props.data;
     let photos;
